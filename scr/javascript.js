@@ -1,5 +1,5 @@
 function comecar() {
-    window.location.href = "/home/thiago/Programacao/html-css/meusite/login.html";
+    window.location.href = "scr/login.html";
 }
 
 function entrar(){
@@ -10,7 +10,7 @@ function entrar(){
     if (senha_correta == senha_usu) {
         localStorage.setItem("nome", nome);
 
-        window.location.href = "/home/thiago/Programacao/html-css/meusite/paginainical.html";
+        window.location.href = "paginainical.html";
     }
     else {
         alert("Senha incorreta! Tente novamente")
