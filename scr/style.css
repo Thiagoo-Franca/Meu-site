@@ -1,0 +1,209 @@
+body {
+    background: linear-gradient(to right, rgb(103, 103, 255), rgb(255, 121, 121));
+    margin: 0;
+    height: 100dvh;
+    width: 100%;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#botaoini {
+    padding: 20px;
+    width: 200px;
+    border: 0px;
+    cursor: pointer;
+    font-size: 14px;
+}
+#botaoini:hover {
+    transition: 400ms ease;
+    background-color: rgb(255, 196, 208);
+    color: rgb(50, 3, 3);
+
+}
+
+#texto-botao {
+    display: grid;
+    justify-items: center;
+   
+}
+
+#box-inicial {
+    margin: 100px auto;
+    background-color: crimson;
+    height: auto;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+    box-shadow: 0px 4px 20px rgb(142, 0, 0);
+
+
+}
+h2 {
+    text-align: justify;
+    font-size: 36px;
+    width: 100%;
+    color: white;
+    margin-bottom: 20px;
+}
+#foto_texto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto;
+    gap: 20px;    
+}
+
+#foto_ini {
+    height: auto;
+    width: 90%;
+    max-width: 350px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    #box-inicial {
+        margin: 20px auto;
+        padding: 15px;
+    }
+    h2{
+        font-size: 24px;
+    }
+    #foto_texto {
+        margin: 10px auto;
+        flex-direction: column;
+    }
+    #foto_ini {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+#login-page {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box {
+    box-shadow: 0px 4px 20px rgb(89, 0, 0);
+    height: 80%;
+    max-height: 400px;
+    background-color: crimson;
+    border-radius: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    max-width: 600px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-box h1 {
+    display: grid;
+    justify-content: center;
+}
+
+#login-page label {
+    font-size: 16px;
+    margin: 5px;
+    color: white;
+}
+
+#inputs {
+    margin: auto;
+    display: grid;
+    
+}
+
+
+input {
+    padding: 8px;
+    width: 250px;
+    border-radius: 15px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+#inputs button {
+    cursor: pointer;
+    width: 255px;
+    border: none;
+    padding: 8px;
+    margin-top: 20px;
+    border-radius: 15px;
+    background-color: rgb(88, 66, 255);
+    color: white;
+}
+
+#inputs button:hover {
+    background-color: rgb(255, 195, 195);
+    border: 1px solid white;
+    transition: 400ms ease-out;
+    color: black;
+}
+
+#Pagina-inicial header {
+    background-color: aliceblue;
+}
+
+#Pagina-inicial a{
+    text-decoration: none;
+    color: black;
+}
+
+#Pagina-inicial ul{
+    display: flex;    
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 20px;
+    list-style: none;
+    margin-top: 0;
+}
+
+#sobremim {
+    background-color: aliceblue;
+    margin: 50px;
+    height: 400px;
+    width: auto;
+    border-radius: 10px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#mensagem {
+    font-size: 48px;
+}
+
+#footer-pi {
+    margin: 0;
+    background-color: aliceblue;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#lista_contatos {
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+
+}
+#logoinsta , #logowhat{
+    height: 20px;
+    width: auto;
+
+}
+
+
